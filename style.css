@@ -70,6 +70,10 @@ li.selected {
   font-size: 32px;
 }
 
+.center {
+  text-align: center;
+}
+
 .tekst {
   grid-area: "tekst";
   font-family: "Open Sans", monospace;
@@ -122,6 +126,62 @@ li.selected {
   width: 50px;
   margin-left: 20px;
 }
+#map {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image-cards {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 60px auto;
+
+}
+
+.image-card {
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+  margin: 20px;
+}
+
+.kuutsemae {
+  background-image: url("Images/kuutsemae.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.kivioli {
+  background-image: url("Images/kivioli.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.nomme {
+  background-image: url("Images/nomme.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.viljandi {
+  background-image: url("Images/vljd.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-title {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+  font-family: "Open Sans", monospace;
+  font-weight: 600;
+  background-color: rgba(77, 77, 77, 0.479);
+  padding: 20px 0px;
+}
 
 @media only screen and (max-width: 500px) {
   #nav-links {
@@ -141,6 +201,17 @@ li.selected {
   #social-media img {
       margin: 0;
       width: 40px;
+  }
+
+  .image-card {
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+    margin: 20px 0px
+  }
+
+  .card-title {
+    font-size: 16px;
   }
 
 }

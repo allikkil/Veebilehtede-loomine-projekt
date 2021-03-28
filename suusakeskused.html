@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eesti Suusakeskused</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="banner">
+        <img id="logo" src="Images/Logo.png" alt="logo">
+    </div>
+    <nav>
+        <div>
+            <ul id="nav-links">
+                <li class="nav-elem"><a href="index.html" class="nav-link">AVALEHT</a></li>
+                <li class="nav-elem selected"><a href="" class="nav-link">SUUSAKESKUSED</a></li>
+                <li class="nav-elem"><a href="" class="nav-link">SUUSAPOOD</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div id="main-content">
+        <h1 class="main-header center">Vaata suusakeskuste asukohti kaardilt</h1>
+        <div id="map" style="height: 300px; width: 80%;"></div>
+        <div id="image-cards">
+            <div class="image-card kuutsemae">
+                <h1 class="card-title">KUUTSEMÄE PUHKEKESKUS</h1>
+            </div>
+            <div class="image-card kivioli">
+                <h1 class="card-title">KIVIÕLI SEIKLUSKESKUS</h1>
+            </div>
+            <div class="image-card nomme">
+                <h1 class="card-title">NÕMME LUMEPARK</h1>
+            </div>
+            <div class="image-card viljandi">
+                <h1 class="card-title">VILJANDI LUMEPARK</h1>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-container">
+            <div id="links">
+                <ul id="footer-links">
+                    <li class="footer-link">@: mail@mail.com</li>
+                    <li class="footer-link">tel: +372 555 5555</li>
+                    <li class="footer-link">© EESTI SUUSAKESKUSED</li>
+                </ul>
+            </div>
+            <div id="social-media">
+                <img src="Images/facebook.png" alt="facebook">
+                <img src="Images/instagram.png" alt="instagram">
+            </div>
+        </div>
+    </footer>
+    <script type='text/javascript' src="script.js"></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[AqLLRE37SJGqIxXEYxezPUa6fF2oCzl3cvG4n05FtFIVBrotBYxchpMYYpwuxBak]' async defer></script>
+</body>
+</html>
