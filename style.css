@@ -187,7 +187,6 @@ li.selected {
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
-  margin-top: -18px;
   font-family: "Open Sans", monospace;
   font-weight: 400;
 }
@@ -216,6 +215,22 @@ li.selected {
   float: right;
   display: flex;
   flex-direction: row;
+}
+
+.sort {
+  margin: 20px 10px 20px 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 280px 320px 320px 320px;
+  grid-row-gap: 20px;
+}
+
+.grid-item2 {
+  height: 325px;
+  text-align: center;
+  margin-top: 90px;
 }
 
 #side-navigation-links {
@@ -249,10 +264,6 @@ li.selected {
 
 .product-card h3 {
   font-size: 18px;
-}
-
-#footer-container {
-  margin-top: -17px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -312,6 +323,12 @@ li.selected {
   #side-navigation-links {
     justify-content: center;
     text-align: center;
-    width: 185%;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
   }
 }

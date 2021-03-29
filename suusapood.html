@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eesti Suusakeskused</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -29,7 +28,7 @@
             <h2 class="header-h2"> FILTREERI  </h2>
             <img src="Images/filter.webp" alt="filtreeri_logo">
             <h2 class="header-h2"> SORTEERI </h2>
-            <select class="sort my-3 mr-2" id="sort" name="sort">
+            <select class="sort" id="sort" name="sort">
                 <option value="kasvavalt"> Hinna järgi kasvavalt </option>
                 <option value="kahanevalt"> Hinna järgi kahanevalt </option>
                 <option value="populaarsed"> Populaarsed </option>
@@ -38,52 +37,44 @@
     </div>
 
         <div id="product-cards">
-            <div class="row">
-                <div class="col-md-2.5">
-                    <div class="side-navigation float-left border-0">
-                        <ul id="side-navigation-links">
-                            <li class="side-nav-elem"> Mäesuusad </li>
-                            <li class="side-nav-elem"> Mäekepid </li>
-                            <li class="side-nav-elem"> Mäesaapad </li>
-                            <li class="side-nav-elem"> Lumelauad </li>
-                            <li class="side-nav-elem"> Lumelaua klambrid </li>
-                            <li class="side-nav-elem"> Lumelaua saapad </li>
-                            <li class="side-nav-elem selected"> Kiivrid </li>
-                            <li class="side-nav-elem"> Prillid </li>
-                            <li class="side-nav-elem"> Kaitsmed </li>
-                            <li class="side-nav-elem"> Mäejoped </li>
-                            <li class="side-nav-elem"> Mäepüksid </li>
-                            <li class="side-nav-elem"> Kindad </li>
-                            <li class="side-nav-elem"> Mütsid </li>
-                            <li class="side-nav-elem"> Sokid </li>
-                        </ul>
+            <div class="grid-container">
+                <!-- <div class="grid-item1"> -->
+                    <ul id="side-navigation-links">
+                        <li class="side-nav-elem"> Mäesuusad </li>
+                        <li class="side-nav-elem"> Mäekepid </li>
+                        <li class="side-nav-elem"> Mäesaapad </li>
+                        <li class="side-nav-elem"> Lumelauad </li>
+                        <li class="side-nav-elem"> Lumelaua klambrid </li>
+                        <li class="side-nav-elem"> Lumelaua saapad </li>
+                        <li class="side-nav-elem selected"> Kiivrid </li>
+                        <li class="side-nav-elem"> Prillid </li>
+                        <li class="side-nav-elem"> Kaitsmed </li>
+                        <li class="side-nav-elem"> Mäejoped </li>
+                        <li class="side-nav-elem"> Mäepüksid </li>
+                        <li class="side-nav-elem"> Kindad </li>
+                        <li class="side-nav-elem"> Mütsid </li>
+                        <li class="side-nav-elem"> Sokid </li>
+                    </ul>
+                <!-- </div> -->
+                <div class="grid-item2">
+                    <a href="#"><img src="Images/helmet.jpg" alt=" " height="150"></a>
+                    <div class="product-card">
+                        <h3> TOODE 1 </h3>
+                        <p> 11.33€ </p>
                     </div>
                 </div>
-                <div class="col-md-3 mt-4 pl-4">
-                    <div class="card h-70 border-0 text-center mx-auto m-5">
-                        <a href="#"><img src="Images/helmet.jpg" alt=" "></a>
-                        <div class="product-card">
-                            <h3> TOODE 1 </h3>
-                            <p> 11.33€ </p>
-                        </div>
+                <div class="grid-item2">
+                    <a href="#"><img src="Images/helmet.jpg" alt=" " height="150"></a>
+                    <div class="product-card">
+                        <h3> TOODE 2 </h3>
+                        <p> 23.59€ </p>
                     </div>
                 </div>
-                <div class="col-md-3 mt-4 pl-4">
-                    <div class="card h-70 border-0 text-center mx-auto m-5">
-                        <a href="#"><img src="Images/helmet.jpg" alt=" "></a>
-                        <div class="product-card">
-                            <h3> TOODE 2 </h3>
-                            <p> 23.59€ </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mt-4 pl-4">
-                    <div class="card h-70 border-0 text-center mx-auto m-5">
-                        <a href="#"><img src="Images/helmet.jpg" alt=" "></a>
-                        <div class="product-card">
-                            <h3> TOODE 3 </h3>
-                            <p> 25.55€ </p>
-                        </div>
+                <div class="grid-item2">
+                    <a href="#"><img src="Images/helmet.jpg" alt=" " height="150"></a>
+                    <div class="product-card">
+                        <h3> TOODE 3 </h3>
+                        <p> 25.55€ </p>
                     </div>
                 </div>
             </div>
