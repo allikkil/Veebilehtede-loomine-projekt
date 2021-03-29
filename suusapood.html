@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eesti Suusakeskused</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="banner">
+        <img id="logo" src="Images/Logo.png" alt="logo">
+    </div>
+    <nav>
+        <div>
+            <ul id="nav-links">
+                <li class="nav-elem"><a href="index.html" class="nav-link">AVALEHT</a></li>
+                <li class="nav-elem"><a href="suusakeskused.html" class="nav-link">SUUSAKESKUSED</a></li>
+                <li class="nav-elem selected"><a href="" class="nav-link">SUUSAPOOD</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1 id="header-h1"> KATEGOORIAD </h1>
+        <div class="header-right">
+            <h2 class="header-h2"> FILTREERI  </h2>
+            <img src="Images/filter.webp" alt="filtreeri_logo">
+            <h2 class="header-h2"> SORTEERI </h2>
+            <select class="sort my-3 mr-2" id="sort" name="sort">
+                <option value="kasvavalt"> Hinna järgi kasvavalt </option>
+                <option value="kahanevalt"> Hinna järgi kahanevalt </option>
+                <option value="populaarsed"> Populaarsed </option>
+            </select>
+        </div>
+    </div>
+
+        <div id="product-cards">
+            <div class="row">
+                <div class="col-md-2.5">
+                    <div class="side-navigation float-left border-0">
+                        <ul id="side-navigation-links">
+                            <li class="side-nav-elem"> Mäesuusad </li>
+                            <li class="side-nav-elem"> Mäekepid </li>
+                            <li class="side-nav-elem"> Mäesaapad </li>
+                            <li class="side-nav-elem"> Lumelauad </li>
+                            <li class="side-nav-elem"> Lumelaua klambrid </li>
+                            <li class="side-nav-elem"> Lumelaua saapad </li>
+                            <li class="side-nav-elem selected"> Kiivrid </li>
+                            <li class="side-nav-elem"> Prillid </li>
+                            <li class="side-nav-elem"> Kaitsmed </li>
+                            <li class="side-nav-elem"> Mäejoped </li>
+                            <li class="side-nav-elem"> Mäepüksid </li>
+                            <li class="side-nav-elem"> Kindad </li>
+                            <li class="side-nav-elem"> Mütsid </li>
+                            <li class="side-nav-elem"> Sokid </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4 pl-4">
+                    <div class="card h-70 border-0 text-center mx-auto m-5">
+                        <a href="#"><img src="Images/helmet.jpg" alt=" "></a>
+                        <div class="product-card">
+                            <h3> TOODE 1 </h3>
+                            <p> 11.33€ </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4 pl-4">
+                    <div class="card h-70 border-0 text-center mx-auto m-5">
+                        <a href="#"><img src="Images/helmet.jpg" alt=" "></a>
+                        <div class="product-card">
+                            <h3> TOODE 2 </h3>
+                            <p> 23.59€ </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4 pl-4">
+                    <div class="card h-70 border-0 text-center mx-auto m-5">
+                        <a href="#"><img src="Images/helmet.jpg" alt=" "></a>
+                        <div class="product-card">
+                            <h3> TOODE 3 </h3>
+                            <p> 25.55€ </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <div id="footer-container">
+            <div id="links">
+                <ul id="footer-links">
+                    <li class="footer-link">@: mail@mail.com</li>
+                    <li class="footer-link">tel: +372 555 5555</li>
+                    <li class="footer-link">© EESTI SUUSAKESKUSED</li>
+                </ul>
+            </div>
+            <div id="social-media">
+                <img src="Images/facebook.png" alt="facebook">
+                <img src="Images/instagram.png" alt="instagram">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
