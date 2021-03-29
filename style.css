@@ -266,6 +266,10 @@ li.selected {
   font-size: 18px;
 }
 
+#footer-container {
+  margin-top: -40px
+}
+
 @media only screen and (max-width: 500px) {
   #nav-links {
     flex-direction: column;
