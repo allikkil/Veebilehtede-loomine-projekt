@@ -50,7 +50,7 @@ li.selected {
 }
 
 #main-content {
-  margin: 40px 20px;
+  margin: 60px 20px;
 }
 
 #flex-container {
@@ -92,12 +92,12 @@ li.selected {
 .pilt {
   grid-area: "pilt";
   background-image: url("Images/m2gi.jpg");
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-#footer-container {
+#footer-container, #footer-container-last {
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
@@ -230,7 +230,8 @@ li.selected {
 .grid-item2 {
   height: 325px;
   text-align: center;
-  margin-top: 90px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #side-navigation-links {
@@ -239,9 +240,12 @@ li.selected {
   font-size: 19px;
   color: grey;
   list-style: none;
-  padding: 30px 70px 30px 40px;
+  padding: 40px 70px 40px 40px;
   justify-content: center;
   overflow: hidden;
+}
+.side-nav-elem {
+  margin: 10px 0px;
 }
 
 .side-nav-elem.selected {
@@ -267,8 +271,10 @@ li.selected {
 }
 
 #footer-container {
-  margin-top: -30px
+  margin-top: 40px
 }
+
+
 
 @media only screen and (max-width: 500px) {
   #nav-links {
