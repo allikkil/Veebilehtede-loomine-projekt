@@ -223,15 +223,14 @@ li.selected {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 280px 320px 320px 320px;
-  grid-row-gap: 20px;
+  grid-template-columns: 280px 330px 330px 330px;
+  grid-row-gap: 50px;
 }
 
 .grid-item2 {
-  height: 325px;
+  height: 300px;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 140px;
 }
 
 #side-navigation-links {
